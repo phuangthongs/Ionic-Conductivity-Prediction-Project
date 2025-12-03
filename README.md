@@ -1,4 +1,4 @@
-### Chemical Data Science Project - Group 1
+## Chemical Data Science Project - Group 1
 
 Group Members: Eric Giavedoni, Yong-Cheol Cho, Siri Phuangthong
 
