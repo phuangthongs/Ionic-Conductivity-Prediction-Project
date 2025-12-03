@@ -1,18 +1,38 @@
-## Chemical Data Science Project - Group 1
+# Chemical Data Science Project – Group 1
 
-UIUC ChBE 413 - Data Science for Chemist and Chemical Engineers
+**UIUC ChBE 413 – Data Science for Chemists and Chemical Engineers**  
 
-Group Members: Eric Giavedoni, Yong-Cheol Cho, Siri Phuangthong
+**Group Members:** Eric Giavedoni, Yong-Cheol Cho, Siri Phuangthong  
 
-Abstract:
+---
 
-Polymer electrolytes are a class of materials widely studied for applications in energy storage, such as batteries and fuel cells, due to their ability to conduct ions while maintaining mechanical stability. Predicting their ionic conductivity, however, remains a significant challenge, as it depends on a complex interplay of polymer structure, ion–polymer interactions, and environmental conditions. To alleviate experimental works, Molecular dynamics (MD) simulations have been employed to model polymer dynamics and estimate properties important to energy storage applications, but they are often computationally expensive and limited in their ability to explore large chemical spaces efficiently. To address these limitations, we aim to leverage molecular descriptors to capture relevant chemical and structural information, thereby enhancing predictive capabilities.
+## Abstract
 
-In this project, our goal is to optimize ionic conductivity prediction by enriching the dataset features using RDKit-generated descriptors and polymer physics knowledge. We will also create machine learning models known to be optimal for ionic conductivity prediction from previous literature and improve them by hyperparameter tuning and such to reach a more acceptable prediction. Ultimately, we hope to learn not only which polymer electrolyte features are important for ionic conductivity prediction, but also which machine learning models would be most suitable for electronic properties prediction that will produce comparable results to molecular dynamics.
+Polymer electrolytes are a class of materials widely studied for applications in energy storage, such as batteries and fuel cells, due to their ability to conduct ions while maintaining mechanical stability. Predicting their ionic conductivity, however, remains a significant challenge, as it depends on a complex interplay of polymer structure, ion–polymer interactions, and environmental conditions.
 
+Molecular dynamics (MD) simulations have been employed to model polymer dynamics and estimate properties critical for energy storage applications. While useful, these simulations are often computationally expensive and limited in their ability to explore large chemical spaces efficiently. To overcome these limitations, this project leverages molecular descriptors to capture relevant chemical and structural information, thereby enhancing predictive capabilities.
 
+---
+
+## Project Goals
+
+Our primary objective is to optimize the prediction of ionic conductivity in polymer electrolytes. To achieve this, we will:
+
+1. Enrich the dataset features using RDKit-generated molecular descriptors and polymer physics knowledge.  
+2. Build and refine machine learning models identified in previous literature as effective for predicting ionic conductivity.  
+3. Perform hyperparameter tuning and model optimization to improve prediction accuracy.  
+4. Identify key polymer features that influence ionic conductivity and evaluate which machine learning approaches are most suitable for predicting electronic properties comparable to molecular dynamics simulations.
+
+---
+
+## Repository Contents
 
 Our repository includes:
 
-Paper of the project, Code for featurization, Code for random forest model, Code for GNN Dataset from TYR, References
+- **Project Paper** – Full documentation of methodology, results, and analysis.  
+- **Featurization Code** – Scripts for generating molecular descriptors and feature engineering.  
+- **Random Forest Model** – Code for training and validating RF models for ionic conductivity prediction.  
+- **GNN Dataset** – Dataset and scripts for Graph Neural Network-based modeling (sourced from TYR).  
+- **References** – Bibliography of relevant literature and data sources.
+
 
