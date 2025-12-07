@@ -34,4 +34,13 @@ Our repository includes:
 - **Random Forest Model** – Code for training and validating RF models for ionic conductivity prediction.  
 - **Graph Convolutional Neural Network Model** – Code for training and validating GCNN models for ionic conductivity prediction.  
 
+---
+
+## Individual Contributions
+
+Each member of the group contributed to this project as follows:
+
+- **Yong-Cheol Cho** – GCNN synthesis, simple MLP, paper writing, presentation development.  
+- **Eric Giavedoni** – GCNN development, data processing, paper writing, presentation development.  
+- **Siri Phuangthong** – RF synthesis/development, data featurization, paper writing, presentation development.  
 
